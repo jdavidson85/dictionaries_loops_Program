@@ -7,7 +7,7 @@ print("\n\n\nYou walked a total of " + str(sum(steps))+" steps during the week.\
       + str(int((sum(steps)/len(steps)))))
 for i in range(len(steps)):
     if steps[i] == max(steps):
-        print("The maximum steps you took were: " + str(steps[i])+" on " + days[i])
+        print("The maximum steps you took were: " + str(steps[i]) + " on " + days[i])
 for i in range(len(steps)):
     if steps[i] == min(steps):
-        print("The minimum steps you took were: " + str(steps[i])+" on " + days[i])
+        print("The minimum steps you took were: " + str(steps[i]) + " on " + days[i])
